@@ -1,0 +1,265 @@
+body {
+    padding-top: 20px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: rgb(240, 233, 216);
+}
+
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+/*Animate CSS carousel*/
+
+.main-container {
+    padding: 10px 15px;
+}
+
+.skyblue {
+    background: url('../img/slider/1.jpg') no-repeat center;
+}
+
+.deepskyblue {
+    background: url('../img/slider/2.jpg') no-repeat center;
+}
+
+.darkerskyblue {
+    background: url('../img/slider/3.jpg') no-repeat center;
+}
+
+.carousel {
+    box-shadow: 0 1px 3px #222;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+
+.carousel .item {
+    min-height: 350px;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption h3, .carousel .icon-container {
+    background-color: rgba(255,255,255,.8);
+}
+
+.carousel-caption h3 {
+    color: #333;
+}
+
+.carousel-caption h3 {
+    padding: .5em;
+}
+
+.carousel .icon-container {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 1em;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.carousel-caption button {
+}
+
+/* Animation delays */
+
+.carousel-caption h3:first-child {
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.carousel-caption h3:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.carousel-caption button {
+    animation-delay: 3s;
+}
+
+.p {
+    padding-top: 125px;
+    text-align: center;
+}
+
+    .p a {
+        text-decoration: underline;
+    }
+
+
+/* Main navigation */
+
+#bs-example-navbar-collapse-1 > ul > li > a {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1.9em;
+    color: #6d6e71;
+    font-family: Consolas;
+}
+
+#bs-example-navbar-collapse-1.collapse.in {
+    margin-top: 10px;
+    -moz-transition: ease-out 0.2s;
+    -o-transition: ease-out 0.2s;
+    -webkit-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
+}
+
+.vertical-divided-list li + li {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzU2QThBRDc5QkEyMTFFNUIxREJBNjExNDhGNEQ0QkYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzU2QThBRDY5QkEyMTFFNUIxREJBNjExNDhGNEQ0QkYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3OEExNThGMDQ0MjYxMUU1OUE5QUI1QkM5REUxODIyQyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3OEExNThGMTQ0MjYxMUU1OUE5QUI1QkM5REUxODIyQyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PovSWmgAAAAeSURBVHjaYmBLb7r3//9/BmIwEwMJYFTxIFQMEGAAiQofxKq8dAAAAAAASUVORK5CYII=') /*../img/vert-divider.png*/ center left no-repeat;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background: none;
+}
+
+.nav li a {
+    padding: 7px 15px 7px 15px;
+}
+
+.navbar-default {
+    background: rgb(240, 233, 216);
+    border-color: rgb(240, 233, 216);
+}
+
+.navbar-collapse {
+    border-top: none;
+}
+
+.hvr-sweep-to-right:before {
+    background: #fff;
+}
+
+.partners {
+    text-align: center;
+}
+
+    .partners img {
+        margin: 15px;
+    }
+/* Widgets box */
+.widget {
+    border: 3px ridge #fff;
+    padding: 0 30px;
+    margin: 20px auto;
+    height: 100%;
+    text-align: justify;
+}
+
+    .widget h1 {
+        font-size: 2em;
+    }
+    .widget h4 {
+        text-align: left;
+    }
+    .widget .list-group-item:not(.active) {
+        background:none;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .widget .list-group-item:not(.active):focus, 
+    .widget .list-group-item:not(.active):hover {
+        background:#fff;
+    }
+    .widget .underlined {
+        display:inline-block;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #6d6e71;
+    }
+    .widget .posts-divider {
+        margin: 4px auto;
+    }
+
+#site-logo {
+    max-width: 170px;
+    margin-top: -20px;
+}
+
+/* About us */
+#about img {
+    width: 450px;
+    margin-right: 50px;
+    box-shadow: 0 1px 3px #222;
+}
+
+#about h2 {
+    margin-top:0;
+    font-size:2.4em;
+}
+
+.bold-600 {
+    font-weight:600;
+}
+
+/* Footer */
+footer .text-right a {
+    color: #1062AA;
+}
+
+footer .row {
+    border-top: 1px solid #6d6e71;
+    padding-top: 14px;
+}
+
+/* Scroll to top*/
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #777777;
+    color: #eeeeee;
+    width: 40px;
+    height: 38px;
+    line-height: 40px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.scroll-top-inner {
+    font-size: 20px;
+}
+
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+
+.scroll-top-wrapper.show {
+    visibility: visible;
+    cursor: pointer;
+    opacity: 1.0;
+}
