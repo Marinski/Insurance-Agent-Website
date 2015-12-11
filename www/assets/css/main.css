@@ -1,7 +1,10 @@
 body {
     padding-top: 20px;
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*background-image: url(http://inspirationhut3.inspirationhut.netdna-cdn.com/wp-content/uploads/2013/05/11.png);
+    background-size:cover;*/
     background-color: rgb(240, 233, 216);
+    font-family:"Segoe UI";
 }
 
 
@@ -114,7 +117,7 @@ footer {
     text-transform: uppercase;
     font-size: 1.5em;
     line-height: 1.9em;
-    color: #6d6e71;
+    /*color: #6d6e71;*/
     font-family: Consolas;
 }
 
@@ -277,12 +280,21 @@ footer .row {
     opacity: 1.0;
 }
 
+.panel-default > .panel-heading {
+    /*background:url();*/
+}
 
+.btn-primary,
+.panel-primary > .panel-heading {
+    background-image: none;
+    background-size:cover;
+    background-color: #0C8FA0; /*#5CBCDA*/
+    color:#fff;
+}
 
-
-
-
-
+.panel-primary {
+    border-color: #0C8FA0; /*#5CBCDA*/
+}
 
 .margin-top-10 {
     margin-top:10px;
