@@ -352,6 +352,9 @@ footer .row {
         .main-container {
             padding-bottom: 0;
         }
+        .vertical-divided-list li + li {
+            background: none;
+        }
     }
 
     /* Small Devices, Tablets */
