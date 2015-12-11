@@ -120,11 +120,14 @@
     </div><!-- /.container -->
     <!-- Page Content -->
     <div class="container">
+        <hr />
         <div class="row">
             <div class="col-sm-4">
-                <div class="widget">
-                    <h3>Нашите застраховки</h3>
-                    <div class="widget-item">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="margin-top-10">Нашите застраховки</h3>
+                    </div>
+                    <div class="panel-body">
                         <div class="list-group">
                             <a href="#" class="list-group-item">Застраховка КАСКО</a>
                             <a href="#" class="list-group-item active">Застраховка Гражданска отговорност</a>
@@ -133,21 +136,87 @@
                             <a href="#" class="list-group-item">Туристическа застраховка</a>
                         </div>
                     </div>
+
+                </div>
+                <a class="btn btn-lg btn-primary btn-block" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Изпрати запитване</a>
+                <div class="collapse" id="collapseExample">
+                    <div class="well">
+                        <form class="form-horizontal">
+                            <fieldset>
+
+                                <!-- Form Name -->
+                                <!--<legend>Form Name</legend>-->
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-xs-12 control-label" for="cta-form-name">Име</label>
+                                    <div class="col-xs-12">
+                                        <input id="cta-form-name" name="cta-form-name" type="text" placeholder="Вашето име" class="form-control input-md" required="">
+                                        <span class="help-block">Въведете вашето име *</span>
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-xs-12 control-label" for="cta-form-email">Email адрес</label>
+                                    <div class="col-xs-12">
+                                        <input id="cta-form-email" name="cta-form-email" type="text" placeholder="Email" class="form-control input-md" required="">
+                                        <span class="help-block">Въведете Email адрес</span>
+                                    </div>
+                                </div>
+
+                                <!-- Select Basic -->
+                                <div class="form-group">
+                                    <label class="col-xs-12 control-label" for="cta-form-ins-type">Избери застраховка</label>
+                                    <div class="col-xs-12">
+                                        <select id="cta-form-ins-type" name="cta-form-ins-type" class="form-control">
+                                            <option value="1">КАСКО</option>
+                                            <option value="2">Гражданска отговорност</option>
+                                            <option value="3">Застраховка имущество</option>
+                                            <option value="4">Туристическа застраховка</option>
+                                            <option value="5">Медицинска застраховка</option>
+                                            <option value="6">Пакетна застраховка</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <!-- Textarea -->
+                                <div class="form-group">
+                                    <label class="col-xs-12 control-label" for="cta-form-msg">Съобщение</label>
+                                    <div class="col-xs-12">
+                                        <textarea class="form-control" id="cta-form-msg" name="cta-form-msg">Съобщение...</textarea>
+                                    </div>
+                                </div>
+
+                                <!-- Button -->
+                                <div class="form-group">
+                                    <label class="col-xs-12 control-label" for="singlebutton"></label>
+                                    <div class="col-xs-12">
+                                        <button id="singlebutton" name="singlebutton" class="btn btn-primary">Изпрати</button>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+
+                    </div>
                 </div>
             </div>
             <div class="col-sm-8">
-                <div class="widget">
-                    <h1 class="underlined">Гражданска отговорност</h1>
-                    <p class="lead">The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo.</p>
-                    <p>&emsp;Обект на застраховане по задължителна застраховка "Гражданска отговорност" на автомобилистите е гражданската отговорност на застрахованите физически и юридически лица за причинените от тях на трети лица имуществени и неимуществени вреди, свързани с притежаването и/или използването на моторни превозни средства, за които застрахованите отговарят съгласно българското законодателство или законодателството на държавата, в която е настъпила вредата. Застраховката е задължителна съгласно чл. 257, ал. 1 от Кодекса за застраховането и Наредба №24 за задължително застраховане.</p>
-                    <p>&emsp;The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                    <p class="text-right"><a href="insurance.html">Всички застраховки >></a></p>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h2 class="margin-top-10">Гражданска отговорност</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p class="lead">The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <p>&emsp;Обект на застраховане по задължителна застраховка "Гражданска отговорност" на автомобилистите е гражданската отговорност на застрахованите физически и юридически лица за причинените от тях на трети лица имуществени и неимуществени вреди, свързани с притежаването и/или използването на моторни превозни средства, за които застрахованите отговарят съгласно българското законодателство или законодателството на държавата, в която е настъпила вредата. Застраховката е задължителна съгласно чл. 257, ал. 1 от Кодекса за застраховането и Наредба №24 за задължително застраховане.</p>
+                        <p>&emsp;The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                        <p class="text-right"><a href="insurance.html">Всички застраховки >></a></p>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- /.row -->
         <hr>
-
         <!-- Partners -->
         <div class="row partners">
             <!--<img src="assets/img/footer-logos.png" alt="" class="img-responsive">-->
