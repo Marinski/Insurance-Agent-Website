@@ -11,6 +11,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-carousel-fade.css" rel="stylesheet" />
     <link href="assets/css/hover-min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
     <!-- Custom CSS -->
@@ -23,8 +24,9 @@
     <script src="https://oss.maxcdn.com/libs/respond.assets/js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>    <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -42,17 +44,17 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right vertical-divided-list">
-                    <li>
-                        <a class="hvr-sweep-to-right" href="insurance.html">Застраховки</a>
+                    <li class="active">
+                        <a class="hvr-underline-from-center" href="insurance.html">Застраховки</a>
                     </li>
                     <li>
-                        <a class="hvr-sweep-to-right" href="about.html">За нас</a>
+                        <a class="hvr-underline-from-center" href="about.html">За нас</a>
                     </li>
                     <li>
-                        <a class="hvr-sweep-to-right" href="contact.html">Контакти</a>
+                        <a class="hvr-underline-from-center" href="contact.html">Контакти</a>
                     </li>
                     <li>
-                        <a class="hvr-sweep-to-right" href="partners.html">Партньори</a>
+                        <a class="hvr-underline-from-center" href="partners.html">Партньори</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +63,7 @@
         <!-- /.container -->
     </nav>
     <div class="container main-container">
-        <div id="carousel-example-generic" class="carousel slide">
+        <div id="carousel-example-generic" class="carousel slide carousel-fade">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -74,36 +76,36 @@
                 <div class="item active deepskyblue">
                     <div class="carousel-caption">
                         <h3 data-animation="animated bounceInLeft">
-                            С мисъл за бъдещето
+                            Вземете сега вашата застраховка на страхотна Коледна цена
                         </h3>
                         <!-- <h3 data-animation="animated bounceInRight">
                         This is the caption for slide 1
                         </h3> -->
-                        <button class="btn btn-primary btn-md" data-animation="animated flipInX">вижте повече</button>
+                        <!--<button class="btn btn-primary btn-md" data-animation="animated flipInX">вижте повече</button>-->
                     </div>
                 </div> <!-- /.item -->
                 <!-- Second slide -->
                 <div class="item skyblue">
                     <div class="carousel-caption">
                         <!--   <h3 class="icon-container" data-animation="animated bounceInDown">
-                          <span class="glyphicon glyphicon-heart"></span>
-                          </h3> -->
+                        <span class="glyphicon glyphicon-heart"></span>
+                        </h3> -->
                         <h3 data-animation="animated bounceInLeft">
-                            Сигурност на пътя
+                            Получете отстъпка от застраховка Гражданска Отговорност до края на декември
                         </h3>
-                        <button class="btn btn-primary btn-md" data-animation="animated flipInX">вижте повече</button>
+                        <!--<button class="btn btn-primary btn-md" data-animation="animated flipInX">вижте повече</button>-->
                     </div>
                 </div><!-- /.item -->
                 <!-- Third slide -->
                 <div class="item darkerskyblue">
                     <div class="carousel-caption">
                         <!--      <h3 class="icon-container" data-animation="animated zoomInLeft">
-                             <span class="glyphicon glyphicon-glass"></span>
-                             </h3> -->
+                         <span class="glyphicon glyphicon-glass"></span>
+                         </h3> -->
                         <h3 data-animation="animated bounceInLeft">
                             Грижа за семейството
                         </h3>
-                        <button class="btn btn-primary btn-md" data-animation="animated flipInX">вижте повече</button>
+                        <!--<button class="btn btn-primary btn-md" data-animation="animated flipInX">вижте повече</button>-->
                     </div>
                 </div><!-- /.item -->
             </div><!-- /.carousel-inner -->
@@ -120,10 +122,20 @@
     </div><!-- /.container -->
     <!-- Page Content -->
     <div class="container">
+        <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">Видове застраховки</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html"><i class="fa fa-home"></i> Начало</a>
+                    </li>
+                    <li class="active">Видове застраховки</li>
+                </ol>
             </div>
+        </div>
+
+        <div class="row">
+            <!-- /.row -->
             <div class="col-md-4 col-sm-6">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
