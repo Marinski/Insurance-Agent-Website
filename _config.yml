@@ -1,0 +1,8 @@
+title: Insurance-agent-website
+description: The repo contains website template for a Local Insurance Company
+google_analytics: UA-71099100-1
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
